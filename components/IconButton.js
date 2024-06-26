@@ -1,4 +1,4 @@
-import { Pressable, StyleSheet } from "react-native";
+import { Pressable, StyleSheet, Text } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 const IconButton = ({ icon, onPress, color }) => {
@@ -17,5 +17,9 @@ export default IconButton;
 const styles = StyleSheet.create({
   pressed: {
     opacity: 0.5,
+  },
+  favoritesText: {
+    color: "white",
+    fontSize: 16,
   },
 });
